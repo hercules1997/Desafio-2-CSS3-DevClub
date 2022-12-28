@@ -1,0 +1,10 @@
+{
+    "livePreview.debugOnExternalPreview": true,
+    "livePreview.autoRefreshPreview": "On Changes to Saved Files",
+    "livePreview.openPreviewTarget": "External Browser",
+    "livePreview.showServerStatusNotifications": true,
+    "livePreview.tasks.runTaskWithExternalPreview": true,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.NoBrowser": true,
+    "liveServer.settings.useWebExt": false
+}
