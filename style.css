@@ -7,8 +7,6 @@
   font-family: "Montserrat";
 }
 
-
-
 nav {
   margin-top: 44px;
   margin-left: 76px;
@@ -41,7 +39,7 @@ figure {
 }
 
 figure img {
-  width: 450PX;
+  width: 450px;
 }
 
 section {
@@ -94,7 +92,6 @@ section button {
 
 /* responsível para smartphones */
 @media screen and (max-width: 600px) {
-
   * {
     box-sizing: border-box;
     margin: 0;
@@ -102,59 +99,56 @@ section button {
     font-family: "Montserrat";
   }
 
+
   nav {
     display: none;
     margin: 0;
     padding: 0;
   }
 
- main {
-  display: block;
-  justify-content: center;
-  position: relative;
- }
+  main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap-reverse;
+  }
 
   figure {
-    width: auto;
     margin: 0;
-    position: relative;
-    display: block;
   }
 
   section {
     width: auto;
     margin: 0;
-    padding: 0;
-    position: relative;
-    margin-left: 30px;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
   }
 
   section h1 {
     width: auto;
     font-size: 50px;
     line-height: 50px;
+    margin-bottom: 15px;
     text-align: center;
   }
 
   section h2 {
-    text-align: center;
     font-size: 30px;
-    margin: 30px 64px 20px 64px;
+    text-align: center;
     line-height: 20px;
   }
 
   figure img {
-    width: 394px;
-    margin: 150px 5px 20px 8px;
-  }
-
-  section p {
-    display: none;
+    flex-wrap: wrap;
+    padding: 30px;
   }
 
   section button {
     width: 239px;
-    margin-left: 58px;
-
+  }
+  section p {
+    text-align: center;
   }
 }
